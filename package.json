@@ -1,0 +1,16 @@
+{
+  "name": "yafinc",
+  "version": "1.0.0",
+  "description": "Youth and Future Incorporated (YAFInc) official website",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "keywords": [
+    "ngo",
+    "ghana",
+    "youth",
+    "leadership"
+  ],
+  "author": "Evantra De Buckman Ventures",
+  "license": "MIT"
+}
