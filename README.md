@@ -13,7 +13,7 @@ The official multi-page website for **The Youth and Future Incorporated (YAFInc)
 - **`stories.html`** — Photographic field journal documenting school visits, village community meetings, and classroom moments.
 - **`contact.html`** — Campus mobilization via WhatsApp, organizational partnerships, supporter outreach, and direct contact.
 - **`site.css`** & **`site.js`** — Shared styles, active-link routing, responsive navigation, and layout standards.
-- **`public/`** — Original field photos from YAFInc community and school outreach.
+- **`assets/`** — Original field photos from YAFInc community and school outreach.
 - **`vercel.json`** — Deployment routing, clean URLs, and static header configuration for Vercel.
 
 ## Vercel Deployment Note
@@ -21,8 +21,8 @@ The official multi-page website for **The Youth and Future Incorporated (YAFInc)
 In Vercel Project Settings:
 - **Framework Preset:** `Other`
 - **Root Directory:** `./` (default)
-- **Build Command:** leave empty / disabled
-- **Output Directory:** leave empty / disabled
+- **Build Command:** `npm run build`
+- **Output Directory:** `dist`
 
 ## Slogan
 
