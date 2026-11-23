@@ -86,13 +86,7 @@ header {
 .brand-mark {
   width: 36px;
   height: 36px;
-  background: var(--green);
-  color: var(--lime);
-  border-radius: 50% 50% 50% 7px;
-  display: grid;
-  place-items: center;
-  font-size: 17px;
-  letter-spacing: -0.08em;
+  object-fit: contain;
   flex-shrink: 0;
 }
 .brand small {
@@ -525,10 +519,7 @@ footer {
 .footer-brand {
   max-width: 320px;
 }
-.footer-brand .brand-mark {
-  background: var(--lime);
-  color: var(--green);
-}
+
 .footer-brand .brand small {
   color: #b9c4ba;
 }
@@ -664,7 +655,6 @@ footer {
   .brand-mark {
     width: 32px;
     height: 32px;
-    font-size: 15px;
   }
   .nav-links {
     display: none;
